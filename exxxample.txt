@@ -1,0 +1,26 @@
+style container for Water Balloons web page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="John Dean">
+<title>Water Balloon Fun!</title>
+<style>
+html {display: flex; justify-content: center;}
+body {
+background-color: black;
+background-image: url(../images/waterBalloons.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.table {display: table;}
+.row {display: table-row;}
+.row > * {display: table-cell;}
+.table {border-spacing: 10px;}
+.row > :first-child {text-align: right;}
+.row > * {font-size: 2em;}
+.top {font-size: 4em; text-align: center;}
+.bottom {text-align: center;}
+.bottom > * {font-size: 2em;}
+*:not(input) {color: white;}
+</style>
